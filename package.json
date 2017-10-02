@@ -1,0 +1,34 @@
+{
+  "name": "function-child-route",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": ">=15",
+    "recompose": "^0.25.1"
+  },
+  "peerDependencies": {
+    "react": ">=15",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "react": ">=15",
+    "react-dom": ">=15",
+    "react-router-dom": "^4.2.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosgo-opensource/function-child-route.git"
+  },
+  "files": [
+    "lib"
+  ]
+}
